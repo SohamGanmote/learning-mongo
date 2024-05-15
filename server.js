@@ -5,7 +5,7 @@ const router = require("./routes");
 const app = express();
 
 const dbURI =
-	"mongodb+srv://soham:Soham123@mango.ql1ijob.mongodb.net/Mango_tutorial?retryWrites=true&w=majority&appName=mango";
+	"mongodb+srv://soham:soham@mango.ql1ijob.mongodb.net/Mango_tutorial?retryWrites=true&w=majority&appName=mango";
 
 mongoose
 	.connect(dbURI)
